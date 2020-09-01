@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_click_lay"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <FrameLayout
+        android:id="@+id/frameLay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/view_circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/frameLay"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_selected_shape"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="20"
+            android:textSize="14dip" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/point_view"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_below="@+id/frameLay"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/point_shape" />
+</RelativeLayout>

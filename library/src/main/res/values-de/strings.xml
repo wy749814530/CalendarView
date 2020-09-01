@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_monday">Mo.</string>
+    <string name="calendar_tuesday">Di.</string>
+    <string name="calendar_wednesday">Mi.</string>
+    <string name="calendar_thursday">Do.</string>
+    <string name="calendar_friday">Fr.</string>
+    <string name="calendar_saturday">Sa.</string>
+    <string name="calendar_sunday">So.</string>
+</resources>
