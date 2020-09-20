@@ -3,13 +3,13 @@
 
     <color name="text_Color">#222222</color>
     <color name="text_gray_Color">#666666</color>
-    <color name="gray_999999">#999999</color>
+    <color name="gray_999999">#C3C6C9</color>
 
     <color name="white">#FFFFFF</color>
     <color name="white_light">#F3F1F4</color>
     <color name="yellow_color">#ef9200</color>
     <color name="blue_color">#2096fe</color>
     <color name="gray_color">#999999</color>
-
+    <color name="select_color">#60ccb5</color>
     <color name="blue_light_color">#c2daf5</color>
 </resources>

@@ -112,10 +112,10 @@ public class SlideCalendarView extends RelativeLayout {
                 } else if (currentPosition == calendarList.size() - 1) {
                     Log.i(TAG, "右 - -");
                     // 当视图在最后一个是,将页面号设置为图片的第一张。
-                    mViewPager.setCurrentItem(1, false);
                     for (CalendarView pagerFragment : calendarList) {
                         pagerFragment.nextMonth();
                     }
+                    mViewPager.setCurrentItem(1, false);
                 }
             }
         });
